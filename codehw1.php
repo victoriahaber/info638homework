@@ -3,7 +3,7 @@
 <?php
 
 
-
+/* assigning variables */
 $change = 159;
 $doll = "1 dollar";
 $quart = "two quarters";
@@ -19,6 +19,7 @@ while ($bottles > 0){
   echo "$bottles bottles of beer, ";
   echo "take one down and pass it around </br></br> ";
   $bottles--;
+  /* assigned 99 to variable bottles and then using decrement operators to decrease the value after each loop  */
 }
 ?>
 </body>
